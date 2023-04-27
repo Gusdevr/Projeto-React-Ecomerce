@@ -78,7 +78,7 @@ const Home = () => {
               <NavModal>
 
               <FaHouseUser size={'22px'} />  <a href="#">Minha conta</a>
-             <FaUser size={'22px'}  />   <a href="#">Meus Dados</a>
+              <FaUser size={'22px'}  />   <a href="#">Meus Dados</a>
               <FaShoppingBasket size={'22px'} />   <a href="#">Meus pedidos</a>
               <FaThumbsUp size={'22px'} />  <a href="#">Avaliações</a>
               <FaCommentAlt size={'22px'} />  <a href="#">Atendimento</a>
@@ -118,7 +118,7 @@ const Home = () => {
 
     <FaHeadset size={'25px'} title="SAC"/>
     <FaRegHeart size={'25px'} title="Favoritos"/>
-    <FaShoppingCart size={'25px'} title="Carrinho"/>
+    <a href='carrinho'> <FaShoppingCart size={'25px'} style={{color:'darkgrey'}} title="Carrinho"/> </a>
     </div>
 
    <nav>
