@@ -43,7 +43,7 @@ Modal:
 ## Autores
 
 - [@Gusdevr](https://github.com/Gusdevr)
-- [@Eduardo Pezzi](https://github.com/EduardoPezzi01)
+- [@Clayton Rodrigues](https://github.com/crdigital)
 
 
 
