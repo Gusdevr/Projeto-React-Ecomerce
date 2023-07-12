@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+
 export const ContainerDesc = styled.div`
 
     h5 {
@@ -17,7 +18,7 @@ export const ContainerDesc = styled.div`
     h3 {
         font-size: 45px;
         font-weight: 700;
-        color: #F56C00;
+        color:#00AA00;
     }
 
     .desc-price {
@@ -36,7 +37,7 @@ export const ContainerDesc = styled.div`
       border-radius: 5px;
       border: none;
       cursor: pointer;
-      background-color: #F56C00;
+      background-color:#00AA00;
       color: #fff;
       font-size: 20px;
       font-weight: 700;
@@ -71,5 +72,6 @@ export const ContainerData = styled.div`
 
     
 }
+
     
 `

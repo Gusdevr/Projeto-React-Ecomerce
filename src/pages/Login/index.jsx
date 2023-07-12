@@ -48,7 +48,7 @@ const Login = () => {
     <header>
    
  <LogHeader>
-           <a href='/'> <img src={LogoPng} /> </a>
+           <a href='/'> <img src={LogoPng} alt="logo"/> </a>
         </LogHeader>
        
         
@@ -69,7 +69,7 @@ const Login = () => {
 
         </ContainerButtons>
 
-        <a href='#'>Esqueceu a Senha?</a>
+        <a href='/cadastro'>Esqueceu a Senha?</a>
 
 
     </FormLogin>

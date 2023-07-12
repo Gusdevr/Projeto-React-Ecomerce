@@ -12,7 +12,7 @@ export const ContainerCadastro = styled.div`
 text-transform: uppercase;
 text-align: center;
 margin: 50px auto;
-color:#ff6200;
+color:#00AA00;
 font-weight: 700;
 font-size: 25px;
 
@@ -65,7 +65,7 @@ button {
     padding: 10px;
     width: 300px;
     cursor: pointer;
-    background-color: #F56C00;
+    background-color: #00AA00;
     color: #fff;
     border: none;
     border-radius: 5px;

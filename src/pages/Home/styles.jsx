@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+
 export const ContainerHome = styled.div`
       
     display: flex;
@@ -46,7 +47,7 @@ input {
 }
 
 button {
-    background-color: #ff6200;
+    background-color: #00AA00;
     border: none;
     border-radius: 5px;
     margin-left: 5px;
@@ -58,7 +59,7 @@ button {
 
     &:hover{
         background-color: white;
-        color: #ff6200;
+        color: #00AA00;
     }
    
     
@@ -71,7 +72,7 @@ button {
 
 export const BottonHeader = styled.div`
 position: absolute;
-background-color: #ff6200;
+background-color: #00AA00;
 height: 40px;
 width: 102%;
 left: -2%;
@@ -122,20 +123,18 @@ export const ArticleProduct = styled.div`
     padding: 20px;
     border-radius: 5px;
     position:absolute;
-    
-    
+   
+     
    
     img {
+       
         width: 200px;
         padding: 10px;
         margin:20px;
         display: flex;
+        display: block;
        
-
-        
-
-        
-
+       
     }
 
     p {
@@ -144,7 +143,7 @@ export const ArticleProduct = styled.div`
     }
 
     h5 {
-        color: #ff6200;
+        color: #00AA00;
         font-size: 20px;
         font-weight: 700;
     }
@@ -157,7 +156,7 @@ export const ArticleProduct = styled.div`
   
 
     a {
-        background-color: #ff6200;
+        background-color: #00AA00;
         width: 250px;
         height: 30px;
         box-shadow:transparent;
@@ -208,7 +207,7 @@ export const ArticleProductB = styled.div`
     }
 
     h5 {
-        color: #ff6200;
+        color: #00AA00;
         font-size: 20px;
         font-weight: 700;
     }
@@ -221,7 +220,7 @@ export const ArticleProductB = styled.div`
   
 
     a {
-        background-color: #ff6200;
+        background-color:#00AA00;
         width: 250px;
         height: 30px;
         box-shadow:transparent;
@@ -273,7 +272,7 @@ background-color: white;
     }
 
     h5 {
-        color: #ff6200;
+        color:#00AA00;
         font-size: 20px;
         font-weight: 700;
     }
@@ -286,7 +285,7 @@ background-color: white;
   
 
     a {
-        background-color: #ff6200;
+        background-color: #00AA00;
         width: 250px;
         height: 30px;
         box-shadow:transparent;
@@ -338,7 +337,7 @@ background-color: white;
     }
 
     h5 {
-        color: #ff6200;
+        color:#00AA00;
         font-size: 20px;
         font-weight: 700;
     }
@@ -351,7 +350,7 @@ background-color: white;
   
 
     a {
-        background-color: #ff6200;
+        background-color:#00AA00;
         width: 250px;
         height: 30px;
         box-shadow:transparent;

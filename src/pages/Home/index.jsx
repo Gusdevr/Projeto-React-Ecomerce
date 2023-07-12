@@ -1,15 +1,8 @@
 
 import { useState } from 'react'
 
-
 import LogoPng from '../../assets/img/logo.png' 
 import React from 'react'
-import { FaBars} from "react-icons/fa"
-import { FaRegUserCircle } from 'react-icons/fa'
-import { FaHeadset } from 'react-icons/fa'
-
-
-
 
 import Slider from '../../commons/Slider/Slider'
 
@@ -19,14 +12,23 @@ import NotePng from '../../assets/img/note.png'
 import HeadPng from '../../assets/img/head.png'
 
 import { 
-  FaRegHeart,FaHouseUser,FaUser,FaShoppingBasket,
-  FaThumbsUp,FaCommentAlt,FaHeart, FaUserTie
+  FaRegHeart,
+  FaHouseUser,
+  FaUser,
+  FaShoppingBasket,
+  FaThumbsUp,
+  FaCommentAlt,
+  FaHeart, 
+  FaUserTie, 
+  FaShoppingCart, 
+  FaRegUserCircle, 
+  FaBars, 
+  FaHeadset
 } 
   from 'react-icons/fa'
 
-import { FaShoppingCart } from 'react-icons/fa'
-import Modal from '../../components/Modal'
 
+import Modal from '../../components/Modal'
 
 
 import { 
@@ -41,8 +43,6 @@ ArticleProductB,
 ArticleProductC,
 ArticleProductD
 } from "./styles"
-
-
 
 
 
@@ -150,12 +150,13 @@ const Home = () => {
     <Slider />
 
     <SectionProduct>
+
       <ArticleProduct>
-        <img src={TvPng}></img>
-        <p>Smart TV Samsung 43" UHD 4K</p>
+        <img src={TvPng}></img> 
+        <p>Smart TV Samsung 43" UHD 4K</p> 
         <h5>R$ 1999,99</h5>
         <span>À vista no pix</span>
-        <a href="#">comprar</a>
+        <a href="carrinho">comprar</a>
       </ArticleProduct>
 
     

@@ -20,6 +20,8 @@ export const GlobalStyle = createGlobalStyle`
 
         --red-600: #FF5C5C
 
+        --Green-500: #00AA00
+
     }
 
     * {
@@ -38,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
    }
 
    header {
-    background-color: #114871;
+    background-color: #1a2131;
     width: 100vw;
     height: 7rem;
     padding: 0.625rem;

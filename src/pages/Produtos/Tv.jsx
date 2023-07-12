@@ -3,8 +3,30 @@ import { LogHeader } from '../Home/styles'
 import LogoPng from '../../assets/img/logo.png' 
 import TvPng from '../../assets/img/tv.png'
 import {ContainerDesc, ContainerData} from '../Produtos/styles'
+import axios from 'axios'
+
+import { 
+  FaRegUserCircle, 
+  FaHeadset, 
+  FaRegHeart, 
+  FaShoppingCart } 
+  
+  from 'react-icons/fa'
 
 
+
+const handleClick = (idProduto, quantidade) => {
+axios.post('https://api-ecommerce-gamaxp47.herokuapp.com/pedido_vendas', {
+  idProduto,
+  quantidade
+})
+.then((response) => {
+  console.log(response)
+})
+.catch((error)=> {
+  console.error(error)
+})
+}
 
 
 
@@ -19,6 +41,25 @@ const Tv = () => {
       </a>
     </LogHeader>
 
+    <FaRegUserCircle size='40px'  style={{color:'darkgrey', position: 'absolute',
+            marginLeft:'1050px', marginTop:'20px'
+         
+    }}/>
+   
+   <div style={{color:'darkgrey',position:'absolute', left:'88%', top:'4%', 
+    display:'flex', gap:'35px', cursor:'pointer'}}>
+
+    <FaHeadset size={'25px'} title="SAC"/>
+    <FaRegHeart size={'25px'} title="Favoritos"/>
+    <a href='carrinho'> <FaShoppingCart size={'25px'} style={{color:'darkgrey'}} title="Carrinho"/> </a>
+    </div>
+
+    <span style={{position: 'absolute', top: '6.5%'}}>
+    <p>Faça <a href="http://localhost:3000/login">login</a> ou 
+    <br /> crie seu <a href="/cadastro">cadastro</a> </p>
+    </span>
+         
+
     
   </header>
 
@@ -28,12 +69,13 @@ const Tv = () => {
   <p>Você está em Tv ↪ Tv 4k ↪ Código:271563 | <strong>Em estoque</strong></p>
   <hr />
   <h5>Smart TV Samsung 43 Polegadas UHD 4K, 3 HDMI, 1 USB, Processador Crystal 4K</h5>
-  <img src={TvPng}   /> 
+  <img src={TvPng} alt="tv 42"/> 
+
   <div className='desc-price'>
   <h3>R$ 1.999,99</h3>
   <span>À vista no pix <br /> <br />Em até 10x de <strong>R$ 199,99</strong> sem juros no cartão</span>
   </div>
-  <button>comprar</button>
+  <button onClick={handleClick}>comprar</button>
 </ContainerDesc>
 
 <ContainerData>

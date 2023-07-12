@@ -25,7 +25,7 @@ margin-top: 20px;
 h1 {
 text-transform: uppercase;
 margin-bottom: 30px; 
-color:#ff6200;
+color:#00AA00;
 font-weight: 700;
 font-size: 25px;
 
@@ -60,7 +60,7 @@ input {
 
 export const ContainerButtons = styled.div`
 button {
-    background-color:#ff6200;
+    background-color:#00AA00;
     color: #fff;
     width: 300px;
     height: 35px;
