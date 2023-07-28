@@ -6,6 +6,7 @@ O aplicativo Info Tech foi desenvolvido por um grupo front end e back end do Gam
 
 
 Repositório do Back End: https://github.com/crdigital/Desafio-Final-Gama-XP47-ecommerce-back-end
+Deploy: https://projeto-react-ecomerce-oegc-6llx6swlx-gusdevr.vercel.app/
 
 
 
